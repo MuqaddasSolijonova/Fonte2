@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    .name{
+        width: 400px !important;
+        height: 50px !important;
+        margin-top: 20px;
+        margin-bottom:  0px !important;
+    }
+    .email{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .email input{
+        width: 400px !important;
+        height: 50px !important;
+       
+    }
+    .informations .enter{
+       display: flex;
+       align-items: center;
+       transform: translateX(-50%);
+    }
+    .section6 .container{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        padding: 80px 70px;
+    }
+    .contacts img{
+        margin-bottom: 30px;
+    }
+    .contacts h2{
+        font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+display: flex;
+align-items: start;
+flex-direction: column;
+color:white;
+margin-bottom: 15px;
+    }
+    .contacts h2 span{
+        font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+    }
+    .Astana h2{
+        font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+color: white;
+margin-top: 20px;
+    }
+    .Almati h2{
+        font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+color: white;
+margin-top: 20px;
+    }
+    .map{
+      display: flex !important;
+      align-items: center !important;
+      gap: 50px !important;
+    }
+
+    
+  </style>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div data-aos="flip-right" class="logo">
+                    <img src="./imgs/logo.png" alt="">
+                </div>
+                <ul data-aos="flip-right">
+                    <li><a href="/">О нас <span></span><span></span><span></span><span></span></a></li>
+                    <li><a <a target="_blank" href="./comanda.html">Команда <span></span><span></span><span></span><span></span></a></li>
+                    <li><a target="_blank" href="./blog.html">Блог <span></span><span></span><span></span><span></span></a></li>
+                    <li><a href="">Продукты <span></span><span></span><span></span><span></span></a></li>
+                    <li><a target="_blank" href="./contact.html">Контакты <span></span><span></span><span></span><span></span></a></li>
+                </ul>
+                <div data-aos="flip-right" class="btn">
+                    <button class="enter">Войти</button>
+                    <button class="lang">Рус</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="section6">
+            <div class="container">
+                <div class="contacts">
+                    <img src="./imgs/contact_logo.svg" alt="">
+                    <h2>
+                        Задайте нам любой вопрос
+                        <span>+7 701 776 24 20  </span>
+                    </h2>
+                    <h2>
+                        Электронная почта
+                        <span>client@fonte.kz</span>
+                    </h2>
+                    <h2>
+                        Юридический адрес
+                       <span>050040/A15E3H4, проспект Аль-Фараби, 77/7​, 10 этаж, Алматы, Казахстан <br> Z05T3D0, проспект Мангилик Ел, 55/20, Офисы 345-346, Астана, Казахстан</span>
+                    </h2>
+                </div>
+                <div class="informations">
+                    <div class="form">
+                        <form action="">
+
+                            <div class="email">
+                                <div class="name"><input placeholder="Арман Арманов" type="text"></div>
+                                <input placeholder="Email" type="text">
+
+                                <input placeholder="Telephone" type="text">
+                            </div>
+
+                            <button class="enter">Отправить</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container map">
+                <div class="Astana">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320668.6761137973!2d71.1719363140187!3d51.104326596088654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2sAstana%2C%20Kazakhstan!5e0!3m2!1sen!2s!4v1716756269221!5m2!1sen!2s" width="546" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     <h2>Астана</h2>
+                </div>
+                <div class="Almati">
+                      
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372170.0326470801!2d76.62286051383838!3d43.21833183390852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e7d16c5cbab%3A0x3d44668fad986d76!2sAlmaty%2C%20Kazakhstan!5e0!3m2!1sen!2s!4v1716756297538!5m2!1sen!2s" width="546" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       <h2>Алматы</h2>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="section7">
+            <div class="container">
+                <div class="sec7_logo">
+                    <img src="./imgs/sec7_logo.svg" alt="">
+                </div>
+                <div class="description">
+                    <ul>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Команда</a></li>
+                        <li><a href="">Блог</a></li>
+                        <li><a href="">Продукты</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Terms and conditions</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="networks">
+                    <img src="./imgs/facebook.svg" alt="">
+                    <img src="./imgs/insta.svg" alt="">
+                    <img src="./imgs/twitter.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+    <footer data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="container">
+            <h3>
+                © 2022 • Fonte • All rights reserved
+            </h3>
+            <p>
+                Частная компания «FONTE Capital Ltd.», зарегистрированная по адресу: Есильский район, г. Нур-Султан,
+                Мангилик Ел, 55/20, офис 345-346, БИН 220140900035, осуществляет свою деятельность в соответствии с
+                законодательством Международного Финансового центра «Астана» (МФЦА) имеет право осуществлять
+                регулируемую деятельность по управлению коллективными инвестициями – на основании лицензии №
+                AFSA-A-LA-2022-0004, от 27 января 2022 года на бессрочной основе
+            </p>
+            <p>
+                Стоимость инвестиции инвестора в инвестиционный фонд может увеличиваться или уменьшаться. Результаты
+                инвестирования в прошлом не определяют доходы в будущем. Управляющая компания инвестиционного фонда или
+                МФЦА не гарантируют доходности инвестиций. Инвестору необходимо ознакомиться с Уставом (Constitution) и
+                Инвестиционным меморандумом (Offering Memorandum) инвестиционного фонда, его инвестиционной декларацией
+                и определенными рисками перед инвестированием активов в инвестиционный фонд.
+            </p>
+
+        </div>
+    </footer>
+</body>
+<script src="./js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
